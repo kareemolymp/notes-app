@@ -11,9 +11,16 @@ class notesapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-          appBar: AppBar(
-        title: Text('kareem'),
-      )),
+        appBar: AppBar(
+          title: Text('kareem'),
+        ),
+        body: Center(
+          child: Container(
+            height: 150,
+            child: Image.asset('assets/تنزيل.jfif'),
+          ),
+        ),
+      ),
     );
   }
 }
